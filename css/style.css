@@ -1,0 +1,121 @@
+html*{
+    box-sizing: border-box;
+}
+body{
+    /* margin: 0;   */
+    background: #555555;
+}
+/* header */
+header{
+    display: flex;
+    height: 5vh;
+    min-height: 34px;
+}
+.sidebar_head{
+    flex: 0 0 300px;
+    padding: 10px 30px 10px 30px;
+    background: #44546a;
+}
+.sidebar_head_text{
+    color: #ffffff;
+    font-weight: bold;
+}
+.main_column_head{
+    flex: 1 1 auto;
+    min-width :300px;
+    
+    padding: 10px 30px 10px 30px;
+    background: #006699;
+}
+.main_column_head_text{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* body */
+main{
+    display: flex;
+    height:95vh;
+}
+/* .main_header{
+    display: flex;
+} */
+.sidebar{
+    flex: 0 0 300px;
+    /* min-width :250px; */
+    padding: 10px 30px 0px 30px;
+    background: #006699;
+    /* overflow: auto; */
+}
+.title_output{
+    flex: 1 1 auto;
+    overflow: auto;
+    /* margin: 10px 30px 10px 30px; */
+    height:80vh;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.title{ 
+    padding: 5px 0;
+    text-decoration: none;
+}
+.title:hover{
+    background: #0066CC;
+    color:#fff;
+}
+.main_column{
+    flex: 3 3 auto;
+    min-width :300px;
+    padding: 10px 0 0 30px;
+    background: #dddddd;
+}
+.main_column_output{
+    overflow: auto;
+    height:80vh;
+}
+
+/* footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    min-height: 91px;
+}
+.sidebar_make_title{
+    flex: 0 0 300px;
+    padding: 0px 30px 0px 30px;
+    border-top: 1px solid #ffffff;
+    height: 13vh;
+    background: #006699;
+    
+}
+.sidebar_make_title_text{
+    color: #ffffff;
+    padding: 10px 0 10px 0;
+}
+#input_title{
+    width: 292px;
+}
+.make_title_send_wrapper{
+    padding: 10px 0;
+    text-align: right;
+}
+.main_column_make_text{
+    flex: 1 1 auto;
+    padding: 5px 30px 5px 30px;
+    border-top: 1px solid #000000;
+    height: 13vh;
+}
+textarea{
+    height: 5vh;
+    width: 100%;
+}
+.make_text_send_wrapper{
+    padding: 5px 0;
+    text-align: right;
+}
+.p_header{
+    padding: 20px 0 10px 0;
+}
